@@ -28,11 +28,29 @@ The goal is to transform raw data into meaningful insights that can drive better
 ---
 
 ## 📊 Key Insights
+🔹 Customer Ratings
 
-* Mid-range restaurants tend to perform better in terms of ratings and engagement
-* Certain cuisines dominate specific locations
-* Higher discounts do not always lead to higher profitability
-* A small number of restaurants contribute to a large portion of orders
+Most restaurants fall within a moderate rating range, indicating consistent but highly competitive service quality.
+
+🔹 Pricing Trends
+
+The majority of restaurants operate in the mid-price range, showing that affordability plays a major role in customer engagement.
+
+🔹 Regional Food Trends 
+
+Food choices vary significantly across states — certain dishes clearly dominate specific regions, highlighting localized demand patterns.
+
+🔹 Price vs Rating
+
+Higher prices do not necessarily lead to better ratings, emphasizing the importance of value-for-money.
+
+🔹 Customer Engagement (Rating Count)
+
+A small number of restaurants receive a disproportionately high number of ratings, indicating uneven visibility and demand.
+
+🔹 Outlier Analysis
+
+Significant skewness in pricing and rating counts highlights the importance of proper data cleaning before drawing conclusions.
 
 ---
 
@@ -52,25 +70,6 @@ The goal is to transform raw data into meaningful insights that can drive better
 * Promote high-performing categories during weekends
 * Optimize delivery pricing in high-demand cities
 * Use personalized recommendations based on user behavior
-
----
-
-## 📈 Visualizations
-
-The project includes multiple visualizations such as:
-
-* Histogram (ratings distribution)
-* Count plots (cuisine popularity)
-* Heatmaps (correlation analysis)
-* Scatter plots (price vs rating)
-
----
-
-## 💡 Future Improvements
-
-* Build an interactive dashboard using Streamlit
-* Deploy the project online
-* Apply machine learning models for recommendation systems
 
 ---
 
